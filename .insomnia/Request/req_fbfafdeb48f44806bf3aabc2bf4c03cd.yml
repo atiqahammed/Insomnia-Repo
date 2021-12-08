@@ -1,0 +1,77 @@
+_id: req_fbfafdeb48f44806bf3aabc2bf4c03cd
+type: Request
+parentId: wrk_98fdfa42f9344c358d9f979b7f00e404
+modified: 1638337345250
+created: 1625046468871
+url: "{{base_url}}/create-nft-admin-only"
+name: Create NFT
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    {
+    	"partner": "NWL",
+    	"functionParameter": {
+    		"cardContentId": 3887897,
+    		"serialNumber": 3887897,
+    		"nftMetadata": {
+    			"description": "Friendly OpenSea Creature that enjoys long swims in the ocean.",
+    			"external_url": "https://openseacreatures.io/3",
+    			"image": "https://storage.googleapis.com/opensea-prod.appspot.com/puffs/3.png",
+    			"name": "Dave Starbelly",
+    			"attributes": [
+    				{
+    					"trait_type": "Organization nwl3gy",
+    					"value": "NuARca"
+    				},
+    				{
+    					"trait_type": "Collection",
+    					"value": "Collection value"
+    				},
+    				{
+    					"trait_type": "Level",
+    					"value": "Level value"
+    				},
+    				{
+    					"display_type": "number",
+    					"trait_type": "Edition Size",
+    					"value": 3999992
+    				},
+    				{
+    					"trait_type": "Media Type",
+    					"value": "media-type"
+    				},
+    				{
+    					"display_type": "number",
+    					"trait_type": "Card Content Id",
+    					"value": 4967982
+    				},
+    				{
+    					"display_type": "number",
+    					"trait_type": "Serial Number",
+    					"value": 4967982
+    				}
+    			]
+    		}
+    	}
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_87acc0a8a1304f3393522e481e0b9e3b
+  - id: pair_15854079c1f84be3b101bfbee8395e25
+    name: X-API-KEY
+    value: 1ab2c3d4e5f61ad8c3d4e5f8
+    description: ""
+    disabled: false
+authentication: {}
+metaSortKey: -1625046468871
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

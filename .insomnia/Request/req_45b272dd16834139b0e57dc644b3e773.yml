@@ -1,0 +1,43 @@
+_id: req_45b272dd16834139b0e57dc644b3e773
+type: Request
+parentId: wrk_98fdfa42f9344c358d9f979b7f00e404
+modified: 1638880523629
+created: 1625474904490
+url: "{{base_url}}/create-wallet"
+name: Create Wallet
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"partner": "NWL",
+    	"functionParameter": {
+    		"walletName": "user_atiq37",
+    		"walletEmail": "user_atiq37@nuarca.jp",
+    		"walletType": "User",
+    		"owners": [
+    			"0xba56E3b7fa389C870459503Cc227A40e809F124f"
+    		],
+    		"threshold": 1
+    	}
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_87acc0a8a1304f3393522e481e0b9e3b
+  - id: pair_56cecc7b1c9745ad96a011b3ea85b06f
+    name: X-API-KEY
+    value: 1ab2c3d4e5f61ad8c3d4e5f8
+    description: ""
+    disabled: false
+authentication: {}
+metaSortKey: -1625046468908.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,293 @@
+_id: spc_e167873f7ffa48a6bf4db274d65d9069
+type: ApiSpec
+parentId: wrk_98fdfa42f9344c358d9f979b7f00e404
+modified: 1630566589372
+created: 1624971828264
+fileName: NuArca - NFT API
+contents: |-
+  swagger: '2.0'
+  info:
+    description: |
+      This is a sample Petstore server.  You can find 
+      out more about Swagger at 
+      [http://swagger.io](http://swagger.io) or on 
+      [irc.freenode.net, #swagger](http://swagger.io/irc/).
+    version: 1.0.0
+    title: NFT API Server
+    termsOfService: http://swagger.io/terms/
+    contact:
+      email: apiteam@swagger.io
+    license:
+      name: Apache 2.0
+      url: http://www.apache.org/licenses/LICENSE-2.0.html
+  # host: petstore.swagger.io
+  # basePath: /v2
+  paths:
+
+    /api/v1/createWallet:
+      post:
+        tags: 
+        - blockChain
+        summary: create known user wallet
+        operationId: postKUWObject
+        consumes: 
+        - application/json
+        produces:
+        - application/json
+        parameters:
+        - in: body
+          name: body
+          description: blockChainObject
+          required: true
+          schema: 
+            $ref: '#/definitions/CreateWalletApiBodyObject'
+
+        responses:
+          '200':
+            description: Ok
+            schema: 
+              $ref: '#/definitions/SuccessfulResponseObject'
+          '400':
+            description: invalid object
+          '404':
+            description: not found
+
+
+    /api/v1/createCardContent:
+      post:
+        tags: 
+        - blockChain
+        summary: create card content by partner
+        operationId: postBlockChainObject
+        consumes: 
+        - application/json
+        produces:
+        - application/json
+        parameters:
+        - in: body
+          name: body
+          description: blockChainObject
+          required: true
+          schema: 
+            $ref: '#/definitions/CreateCardContentApiBodyObject'
+
+        responses:
+          '200':
+            description: Ok
+            schema: 
+              $ref: '#/definitions/SuccessfulResponseObject'
+          '400':
+            description: invalid object
+          '404':
+            description: not found
+            
+    /api/v1/computeId:
+      post:
+        tags: 
+        - blockChain
+        summary: generate NFT tokenID by partner
+        operationId: generateNFTToken
+        consumes: 
+        - application/json
+        produces:
+        - application/json
+        parameters:
+        - in: body
+          name: body
+          description: blockChainObject
+          required: true
+          schema: 
+            $ref: '#/definitions/GenereteNftTokenApiBodyObject'
+
+        responses:
+          '200':
+            description: Ok
+            schema: 
+              $ref: '#/definitions/SuccessfulResponseObject'
+          '400':
+            description: invalid object
+          '404':
+            description: not found
+        
+    /api/v1/crateNFT:
+      post:
+        tags: 
+        - blockChain
+        summary: mint NFT token by partner
+        operationId: minNFToken
+        consumes: 
+        - application/json
+        produces:
+        - application/json
+        parameters:
+        - in: body
+          name: body
+          description: blockChainObject
+          required: true
+          schema: 
+            $ref: '#/definitions/CreateNftApiBodyObject'
+
+        responses:
+          '200':
+            description: Ok
+            schema: 
+              $ref: '#/definitions/SuccessfulResponseObject'
+          '400':
+            description: invalid object
+          '404':
+            description: not found
+
+            
+  definitions:
+    
+    CreateWalletApiBodyObject:
+      description: create known user wallet body object
+      type: object
+      properties:
+        publicAddress: 
+          type: string
+        walletName:
+          type: string
+        walletType:
+          type: string
+        walletEmail:
+          type: string
+        functionParameter:
+          $ref: '#/definitions/CrateWalletFunctionParameter'
+
+    CrateWalletFunctionParameter:
+      description: Create wallet function parameter.
+      type: object
+      properties:
+        owners: 
+          type: string
+        threshold:
+          type: string
+          
+    CreateCardContentApiBodyObject:
+      description: Create card content body object
+      type: object
+      properties:
+        partner: 
+          type: string
+          enum:
+          - NWL
+          - HKRU
+          - AEON
+        functionParameter:
+          $ref: '#/definitions/CreateCardContentFunctionParameters'
+        userWalletParameter:
+          $ref: '#/definitions/UserWalletParameters'
+
+      
+    CreateCardContentFunctionParameters: 
+      type: object
+      properties:
+        cardContentId:
+          type: string
+        title:
+          type: string
+        description:
+          type: string
+        mediaType:
+          type: string
+        mediaDataHash:
+          type: array
+          items:
+            type: string
+        mediaDataUrl:
+          type: array
+          items:
+            type: string
+        organization:
+          type: string
+        collection:
+          type: string
+        level:
+          type: string
+        editionSize:
+          type: string
+      description: These are the parameters of createCardContentFunction
+    
+    CreateNftApiBodyObject:
+      description: mint NFT token by partner
+      type: object
+      properties:
+        partner: 
+          type: string
+          enum:
+          - NWL
+          - HKRU
+          - AEON
+        functionParameter:
+          $ref: '#/definitions/CreateNftFuntionParameters'
+        userWalletParameter:
+          $ref: '#/definitions/UserWalletParameters'
+        nftMetadata:
+          type: object
+
+      
+    CreateNftFuntionParameters:
+      type: object
+      properties:
+        owner:
+          type: string
+        cardCotentId:
+          type: string
+        serialNumber:
+          type: string
+        metaDataDigest:
+          type: string
+      description: These are the parameters of createNftFunction  
+
+    UserWalletParameters:
+      type: object
+      properties:
+        signedBytes:
+          type: string
+        walletAddress:
+          type: string
+        ownerAddress:
+          type: string
+      description: These are the parameters of UserWallet  
+
+      
+    GenereteNftTokenApiBodyObject:
+      description: generate NFT token ID by partner
+      type: object
+      properties:
+        partner: 
+          type: string
+        functionParameter:
+          $ref: '#/definitions/ComputeIdFunctionParameters'
+          
+    ComputeIdFunctionParameters:
+      type: object
+      properties:
+        owner:
+          type: string
+        cardCotentId:
+          type: string
+        serialNumber:
+          type: string
+        metaDataDigest:
+          type: string
+      description: These are the parameters of computeIdFunction  
+    SuccessfulResponseObject: 
+      type: object
+      properties:
+        status:
+          type: string
+        data:
+          type: object
+        message:
+          type: string
+      description: Successful response object 
+
+      
+  # Added by API Auto Mocking Plugin
+  host: virtserver.swaggerhub.com
+  basePath: /NuArca/NFT-API/1.0.0
+  schemes:
+   - https
+contentType: yaml

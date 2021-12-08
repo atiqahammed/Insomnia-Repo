@@ -1,0 +1,39 @@
+_id: req_c8104057de1142589a77ba8992be4332
+type: Request
+parentId: wrk_98fdfa42f9344c358d9f979b7f00e404
+modified: 1638089739764
+created: 1625742238392
+url: "{{base_url}}/transfer-nft"
+name: Transfer
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "partner": "NWL",
+      "functionParameter": {
+        "fromAddress": "0x0560226Dd2b345A3C07C6829D3635577a4e5Bd74",
+        "toAddress": "0x32aED0dF37310999D8460a70ae6b2E7377E3105e",
+        "tokenIds": [3460467276470825]
+      },
+      "userWalletParameter": {
+        "signedBytes": "string",
+        "walletAddress": "string",
+        "ownerAddress": "string"
+      }
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_87acc0a8a1304f3393522e481e0b9e3b
+authentication: {}
+metaSortKey: -1625009209947.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

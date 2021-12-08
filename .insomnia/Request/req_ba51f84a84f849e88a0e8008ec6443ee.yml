@@ -1,0 +1,21 @@
+_id: req_ba51f84a84f849e88a0e8008ec6443ee
+type: Request
+parentId: wrk_98fdfa42f9344c358d9f979b7f00e404
+modified: 1638708443964
+created: 1638708419474
+url: "{{base_url}}/check-low-balance"
+name: get low balance
+description: ""
+method: POST
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1638708419474
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

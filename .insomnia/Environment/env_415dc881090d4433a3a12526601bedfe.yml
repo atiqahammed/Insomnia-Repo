@@ -1,0 +1,18 @@
+_id: env_415dc881090d4433a3a12526601bedfe
+type: Environment
+parentId: env_a1a03250a7c76a0ee987393173d5fb971ca1cdb3
+modified: 1635346044435
+created: 1626274416571
+name: Dev
+data:
+  base_path: /api/v1
+  scheme: https
+  host: myodis-dev-nft-api.azurewebsites.net
+dataPropertyOrder:
+  "&":
+    - base_path
+    - scheme
+    - host
+color: null
+isPrivate: false
+metaSortKey: 1

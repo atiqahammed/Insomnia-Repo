@@ -1,0 +1,39 @@
+_id: req_69b02c0d63934f2abc3788613956f550
+type: Request
+parentId: wrk_98fdfa42f9344c358d9f979b7f00e404
+modified: 1638880251822
+created: 1638089382783
+url: "{{base_url}}/marketplace-transfer-nft"
+name: Market place transfer
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "fromKUW": "0x68a875C09F4022632fADbb8E85D8f194190610EC",
+      "toKUW": "0x01712F3610E1D48ef3F55d4ee5F9D4CCC764d90d",
+      "functionName": "marketplaceTransferNFT",
+      "functionParameter": [
+        {
+          "partner": "NWL",
+          "tokenIds": [
+          	"4717015521302433"
+        	]
+        }
+      ]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_3607887829164358ad0490dc780bc24d
+authentication: {}
+metaSortKey: -1638089382783
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

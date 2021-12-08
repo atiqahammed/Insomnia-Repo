@@ -1,0 +1,46 @@
+_id: req_a0563eb9e2ab4843a2bf227ead3e3bd8
+type: Request
+parentId: wrk_98fdfa42f9344c358d9f979b7f00e404
+modified: 1638874727631
+created: 1625474427959
+url: "{{base_url}}/create-card-content"
+name: Create Card Content
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"partner": "JAIRE",
+    	"functionParameter": {
+    		"cardContentId": 236647,
+    		"title": "string1r",
+    		"individual": "string",
+    		"description": "string",
+    		"mediaType": "string",
+    		"mediaDataUrl": ["https://google.com"],
+    		"organization": "string",
+    		"collection": "string",
+    		"level": "string",
+    		"editionSize": 8
+    	}
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_87acc0a8a1304f3393522e481e0b9e3b
+  - id: pair_e9179f82b70543d092ce0f5cf5e8751e
+    name: X-API-KEY
+    value: 1ab2c3d4e5f61ad8c3d4e5f8
+    description: ""
+    disabled: false
+authentication: {}
+metaSortKey: -1625046468899.125
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

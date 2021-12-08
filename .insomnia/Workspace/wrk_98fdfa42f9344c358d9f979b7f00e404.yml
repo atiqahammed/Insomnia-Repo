@@ -1,0 +1,12 @@
+_id: wrk_98fdfa42f9344c358d9f979b7f00e404
+type: Workspace
+parentId: null
+modified: 1625498032008
+created: 1624971828259
+name: NFT API Server 1.0.0
+description: |
+  This is a sample Petstore server.  You can find 
+  out more about Swagger at 
+  [http://swagger.io](http://swagger.io) or on 
+  [irc.freenode.net, #swagger](http://swagger.io/irc/).
+scope: design

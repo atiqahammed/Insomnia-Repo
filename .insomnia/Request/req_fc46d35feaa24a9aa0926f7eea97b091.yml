@@ -1,0 +1,30 @@
+_id: req_fc46d35feaa24a9aa0926f7eea97b091
+type: Request
+parentId: wrk_98fdfa42f9344c358d9f979b7f00e404
+modified: 1638880249173
+created: 1637678480591
+url: "{{base_url}}/get-token-info-by-partner"
+name: get token info
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"partner": "JAIRE",
+    	"tokenId": "5853688287144459"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_7caf8e3f4f1b4a8da98347f717104e5a
+authentication: {}
+metaSortKey: -1637678480591
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

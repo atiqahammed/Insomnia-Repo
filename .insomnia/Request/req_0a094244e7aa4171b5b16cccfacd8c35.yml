@@ -1,0 +1,35 @@
+_id: req_0a094244e7aa4171b5b16cccfacd8c35
+type: Request
+parentId: wrk_98fdfa42f9344c358d9f979b7f00e404
+modified: 1638858903966
+created: 1631086377486
+url: "{{base_url}}/save-metadata"
+name: Save metadata
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"partner": "NWL",
+    	"tokenId": 3962844777146904,
+    	"metadata": "testmetadata"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_87acc0a8a1304f3393522e481e0b9e3b
+  - id: pair_e091c2c770754832b329d546d27f972a
+    name: X-API-KEY
+    value: 1ab2c3d4e5f61ad8c3d4e5f8
+    description: ""
+authentication: {}
+metaSortKey: -1624976608389.4375
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

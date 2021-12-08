@@ -1,0 +1,41 @@
+_id: req_e3430dc305fe413da464a914c54ba71c
+type: Request
+parentId: wrk_98fdfa42f9344c358d9f979b7f00e404
+modified: 1638089744568
+created: 1626606406219
+url: "{{base_url}}/transfer-nft-batch"
+name: Transfer Batch
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "partner": "MCE",
+      "functionParameter": {
+        "fromKUW": "0x0A1eF7AB94EbA89C012cb55206d5364679904753",
+      	"toAddress": "0xb9E9aE2811dB93Fb59032B53697b0bd1a8561549",
+        "tokenIds": [
+          9551247557979772,
+          9795962883694804
+        ]
+      }
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_87acc0a8a1304f3393522e481e0b9e3b
+  - id: pair_fa508524f9c74b3ab20064c288b556eb
+    name: X-API-KEY
+    value: 1ab2c3d4e5f61ad8c3d4e5f8
+    description: ""
+authentication: {}
+metaSortKey: -1624990580485.75
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

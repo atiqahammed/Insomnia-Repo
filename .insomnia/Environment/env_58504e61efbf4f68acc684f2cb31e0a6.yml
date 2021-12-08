@@ -1,0 +1,18 @@
+_id: env_58504e61efbf4f68acc684f2cb31e0a6
+type: Environment
+parentId: env_a1a03250a7c76a0ee987393173d5fb971ca1cdb3
+modified: 1635351072101
+created: 1627226085493
+name: QA
+data:
+  base_path: /api/v1
+  scheme: https
+  host: myodis-nft-api-qa.azurewebsites.net
+dataPropertyOrder:
+  "&":
+    - base_path
+    - scheme
+    - host
+color: null
+isPrivate: false
+metaSortKey: 1

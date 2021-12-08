@@ -1,0 +1,18 @@
+_id: env_3f6af636b1c048498c9e652bc39a6992
+type: Environment
+parentId: env_a1a03250a7c76a0ee987393173d5fb971ca1cdb3
+modified: 1631194329018
+created: 1626682734953
+name: Dev- New
+data:
+  base_path: /api/v1
+  scheme: http
+  host: 20.102.114.29:3001
+dataPropertyOrder:
+  "&":
+    - base_path
+    - scheme
+    - host
+color: null
+isPrivate: false
+metaSortKey: 1

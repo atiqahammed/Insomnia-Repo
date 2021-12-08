@@ -1,0 +1,33 @@
+_id: req_e44e1cd61b9c459e90ce8ef6db6bbb54
+type: Request
+parentId: wrk_98fdfa42f9344c358d9f979b7f00e404
+modified: 1638184459785
+created: 1629113638384
+url: "{{base_url}}/transfer-nft-batch"
+name: Transfer Batch - Ganache
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"partner": "NWL",
+    	"functionParameter": {
+    		"toAddress": "0x623aa38ef44B20Aa99de1bF922734A69AE928",
+    		"tokenIds": [3998951015334581]
+    	}
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_87acc0a8a1304f3393522e481e0b9e3b
+authentication: {}
+metaSortKey: -1624981265754.875
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
