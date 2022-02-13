@@ -1,17 +1,17 @@
-_id: req_c2ae32660687491db54b7c72adb1b7c4
+_id: req_f36bb95f62dc4eb88c0af4c29bce7bae
 type: Request
 parentId: wrk_98fdfa42f9344c358d9f979b7f00e404
-modified: 1644768756699
-created: 1644768492025
-url: http://localhost:3000/api/v1/project-type-by-id
-name: Crastonic Get Project Type By Id
+modified: 1644770635988
+created: 1644770584637
+url: http://localhost:3000/api/v1/user-type
+name: Crastonic Save User Type
 description: ""
 method: POST
 body:
   mimeType: application/json
   text: |-
     {
-      "id": 4
+      "name": "user"
     }
 parameters: []
 headers:
@@ -23,9 +23,9 @@ headers:
     disabled: false
   - name: Content-Type
     value: application/json
-    id: pair_79a218604dc14146b3b4c4151e7388ee
+    id: pair_a37e567ab2ff4b75b276cb99b54e3b77
 authentication: {}
-metaSortKey: -1624976608361.3125
+metaSortKey: -1624976608233.1875
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
