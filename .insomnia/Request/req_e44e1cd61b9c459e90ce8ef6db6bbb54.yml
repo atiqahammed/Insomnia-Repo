@@ -1,7 +1,7 @@
 _id: req_e44e1cd61b9c459e90ce8ef6db6bbb54
 type: Request
 parentId: wrk_98fdfa42f9344c358d9f979b7f00e404
-modified: 1638184459785
+modified: 1643285360856
 created: 1629113638384
 url: "{{base_url}}/transfer-nft-batch"
 name: Transfer Batch - Ganache

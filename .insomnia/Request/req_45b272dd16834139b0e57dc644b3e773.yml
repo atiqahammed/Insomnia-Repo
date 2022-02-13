@@ -1,7 +1,7 @@
 _id: req_45b272dd16834139b0e57dc644b3e773
 type: Request
 parentId: wrk_98fdfa42f9344c358d9f979b7f00e404
-modified: 1638880523629
+modified: 1644767272000
 created: 1625474904490
 url: "{{base_url}}/create-wallet"
 name: Create Wallet
@@ -11,10 +11,10 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"partner": "NWL",
+    	"partner": "USNZCUP",
     	"functionParameter": {
-    		"walletName": "user_atiq37",
-    		"walletEmail": "user_atiq37@nuarca.jp",
+    		"walletName": "atiq137",
+    		"walletEmail": "atiq137@nuarca.com",
     		"walletType": "User",
     		"owners": [
     			"0xba56E3b7fa389C870459503Cc227A40e809F124f"
@@ -32,6 +32,11 @@ headers:
     value: 1ab2c3d4e5f61ad8c3d4e5f8
     description: ""
     disabled: false
+  - id: pair_464d35ebfb284baaa56ba4aa3035f4ee
+    name: Authorization
+    value: Bearer
+      eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcm9tQWRkcmVzcyI6IkVPQSIsImFwaWtleSI6IjFhYjJjM2Q0ZTVmNjFhZDhjM2Q0ZTVmOCIsImlhdCI6MTY0NDQ3MjUyMCwiZXhwIjoxNjQ0NDc4NTIwfQ.v666StSpzN4Qwduy5aJT3hz3_SOMPb6J4HHb2tdes58
+    description: ""
 authentication: {}
 metaSortKey: -1625046468908.5
 isPrivate: false

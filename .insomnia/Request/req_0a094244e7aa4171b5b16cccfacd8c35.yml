@@ -1,7 +1,7 @@
 _id: req_0a094244e7aa4171b5b16cccfacd8c35
 type: Request
 parentId: wrk_98fdfa42f9344c358d9f979b7f00e404
-modified: 1638858903966
+modified: 1641835607277
 created: 1631086377486
 url: "{{base_url}}/save-metadata"
 name: Save metadata
@@ -9,11 +9,49 @@ description: ""
 method: POST
 body:
   mimeType: application/json
-  text: |-
+  text: >-
     {
     	"partner": "NWL",
-    	"tokenId": 3962844777146904,
-    	"metadata": "testmetadata"
+    	"tokenId": 1193065816085394,
+    	"metadata": {
+                "description": "Friendly OpenSea Creature that enjoys long swims in the ocean.",
+                "external_url": "https://openseacreatures.io/3",
+                "image": "https://storage.googleapis.com/opensea-prod.appspot.com/puffs/3.png",
+                "name": "Dave Starbelly",
+                "attributes": [
+                    {
+                        "trait_type": "Organization nwl 39",
+                        "value": "NuARca"
+                    },
+                    {
+                        "trait_type": "Collection",
+                        "value": "Collection value"
+                    },
+                    {
+                        "trait_type": "Level",
+                        "value": "Level value"
+                    },
+                    {
+                        "display_type": "number",
+                        "trait_type": "Edition Size",
+                        "value": 3999992
+                    },
+                    {
+                        "trait_type": "Media Type",
+                        "value": "media-type"
+                    },
+                    {
+                        "display_type": "number",
+                        "trait_type": "Card Content Id",
+                        "value": 213
+                    },
+                    {
+                        "display_type": "number",
+                        "trait_type": "Serial Number",
+                        "value": 199733
+                    }
+                ]
+            }
     }
 parameters: []
 headers:

@@ -1,0 +1,25 @@
+_id: req_140aa78dc02540f3b06c62c68e5e1d60
+type: Request
+parentId: wrk_98fdfa42f9344c358d9f979b7f00e404
+modified: 1644766475134
+created: 1641298830502
+url: "{{base_url}}/get-authentication-token?fromAddress=EOA"
+name: get Token
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_9764a4f8a37d42269597bc5e214c0189
+    name: X-API-KEY
+    value: 1ab2c3d4e5f61ad8c3d4e5f8
+    description: ""
+authentication: {}
+metaSortKey: -1641298830502
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,21 @@
+_id: req_57d74168526d4b9ea0311c0d5def1136
+type: Request
+parentId: wrk_98fdfa42f9344c358d9f979b7f00e404
+modified: 1644744842219
+created: 1644142550196
+url: "{{base_url}}/check-server-health"
+name: Health Check
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1644142550196
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

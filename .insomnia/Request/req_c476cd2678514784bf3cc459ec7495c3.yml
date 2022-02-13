@@ -1,0 +1,75 @@
+_id: req_c476cd2678514784bf3cc459ec7495c3
+type: Request
+parentId: wrk_98fdfa42f9344c358d9f979b7f00e404
+modified: 1644497955896
+created: 1640269062055
+url: "{{base_url}}/validate-tokenId"
+name: Validate Token
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    {
+      "partner": "NWL",
+      "functionName": "validate-tokenId",
+      "functionParameter": {
+        "oldTokenId": "5830821488301399",
+        "cardContentId": 27,
+        "serialNumber": 1,
+        "nftMetadata": {
+          "description": "JJ Cruz knocks one out of the park into the neighboring apartments for a 3-2 Honker lead.",
+          "external_url": "https://myodisprodstorage.blob.core.windows.net/nwl/moments/MainNft_27.mp4",
+          "image": "https://myodisprodstorage.blob.core.windows.net/nwl/cardcontents/CardFront_27.jpg",
+          "name": "JJ Cruz HR",
+          "attributes": [
+            {
+              "display_type": "number",
+              "trait_type": "Card_Content_Id",
+              "value": 27
+            },
+            {
+              "display_type": "number",
+              "trait_type": "Serial_Number",
+              "value": 1
+            },
+            {
+              "trait_type": "Organization",
+              "value": "Northwoods League"
+            },
+            {
+              "trait_type": "Collection",
+              "value": "Northwoods League Collection 1"
+            },
+            {
+              "trait_type": "Level",
+              "value": "1"
+            },
+            {
+              "display_type": "number",
+              "trait_type": "Edition_Size",
+              "value": 250
+            }
+          ]
+        }
+      }
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_a39abdb8772c46aba85717e5de000639
+  - id: pair_795b4a9564b247e29ffe77261f0a5a55
+    name: Authorization
+    value: Bearer
+      eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcm9tQWRkcmVzcyI6IkVPQSIsImFwaWtleSI6IjFhYjJjM2Q0ZTVmNjFhZDhjM2Q0ZTVmOCIsImlhdCI6MTY0MTM2ODg2NywiZXhwIjoxNjQxMzY4OTUzfQ.NePzVdSpsZBAhvceu4KVoPNgW7OUJgIA38OFqlfdC3w
+    description: ""
+authentication: {}
+metaSortKey: -1640269062055
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

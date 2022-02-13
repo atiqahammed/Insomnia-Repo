@@ -1,0 +1,21 @@
+_id: req_96ebdedfe9e0426ba7addc8b47016428
+type: Request
+parentId: wrk_98fdfa42f9344c358d9f979b7f00e404
+modified: 1643268155525
+created: 1643268155525
+url: ""
+name: Create Card content USNZCUP
+description: ""
+method: POST
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1643268155525
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

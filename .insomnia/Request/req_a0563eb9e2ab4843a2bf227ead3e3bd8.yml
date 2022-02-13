@@ -1,7 +1,7 @@
 _id: req_a0563eb9e2ab4843a2bf227ead3e3bd8
 type: Request
 parentId: wrk_98fdfa42f9344c358d9f979b7f00e404
-modified: 1638874727631
+modified: 1644499676679
 created: 1625474427959
 url: "{{base_url}}/create-card-content"
 name: Create Card Content
@@ -11,11 +11,11 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"partner": "JAIRE",
+    	"partner": "RLWC",
     	"functionParameter": {
-    		"cardContentId": 236647,
+    		"cardContentId": 236708,
     		"title": "string1r",
-    		"individual": "string",
+    		"name": "string1r",
     		"description": "string",
     		"mediaType": "string",
     		"mediaDataUrl": ["https://google.com"],
@@ -35,6 +35,11 @@ headers:
     value: 1ab2c3d4e5f61ad8c3d4e5f8
     description: ""
     disabled: false
+  - id: pair_037c9abc59d341caa37135a2fc4fd690
+    name: Authorization
+    value: Bearer
+      eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcm9tQWRkcmVzcyI6IkVPQSIsImFwaWtleSI6IjFhYjJjM2Q0ZTVmNjFhZDhjM2Q0ZTVmOCIsImlhdCI6MTY0NDQ5OTY1MSwiZXhwIjoxNjQ1NDk5NjUxfQ.GB1gcahC6Q600ex7JAic3PLj2szV-7H4DwreXkXQ_sc
+    description: ""
 authentication: {}
 metaSortKey: -1625046468899.125
 isPrivate: false

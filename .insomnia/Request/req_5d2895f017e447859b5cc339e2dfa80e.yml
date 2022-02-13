@@ -1,7 +1,7 @@
 _id: req_5d2895f017e447859b5cc339e2dfa80e
 type: Request
 parentId: wrk_98fdfa42f9344c358d9f979b7f00e404
-modified: 1638878171167
+modified: 1644504709432
 created: 1630405025059
 url: "{{base_url}}/create-nft-batch"
 name: Create NFT Batch
@@ -11,14 +11,14 @@ body:
   mimeType: application/json
   text: >-
     {
-    	"partner": "JAIRE",
+    	"partner": "RLWC",
     	"functionName": "createNftBatch",
     	"functionParameter": {
-    		"toKUW": "0x36fF0D989D69F75dB6c08988f27237F3836f60Bd",
+    		"toKUW": "0x65eD96755a427726625a6217842E2046e8E980d0",
     		"nfts": [
     			{
-    				"cardContentId": 3887897,
-    				"serialNumber": 3887897,
+    				"cardContentId": 224,
+    				"serialNumber": 240,
     				"nftMetadata": {
     					"description": "Friendly OpenSea Creature that enjoys long swims in the ocean.",
     					"external_url": "https://openseacreatures.io/3",
@@ -26,7 +26,7 @@ body:
     					"name": "Dave Starbelly",
     					"attributes": [
     						{
-    							"trait_type": "Organization nwl 32",
+    							"trait_type": "Organization nwl 56",
     							"value": "NuARca"
     						},
     						{
@@ -49,12 +49,12 @@ body:
     						{
     							"display_type": "number",
     							"trait_type": "Card Content Id",
-    							"value": 3887897
+    							"value": 224
     						},
     						{
     							"display_type": "number",
     							"trait_type": "Serial Number",
-    							"value": 3887897
+    							"value": 240
     						}
     					]
     				}
@@ -70,6 +70,11 @@ headers:
   - id: pair_de12ba3f9a434bf2993a5a38ba2c64d9
     name: X-API-KEY
     value: 1ab2c3d4e5f61ad8c3d4e5f8
+    description: ""
+  - id: pair_2cc3b575712146cdab2bb89c7a61fccd
+    name: Authorization
+    value: Bearer
+      eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcm9tQWRkcmVzcyI6IkVPQSIsImFwaWtleSI6IjFhYjJjM2Q0ZTVmNjFhZDhjM2Q0ZTVmOCIsImlhdCI6MTY0NDUwMzM5MywiZXhwIjoxNjQ1NTAzMzkzfQ.cmobjx3DILyTK2PbJadm12VV1tSV6qiHNnaPQWDbikU
     description: ""
 authentication: {}
 metaSortKey: -1625027839409.25
