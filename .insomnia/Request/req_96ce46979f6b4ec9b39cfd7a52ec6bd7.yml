@@ -1,13 +1,18 @@
-_id: req_94a69aa946524748b7685af85b7f26ba
+_id: req_96ce46979f6b4ec9b39cfd7a52ec6bd7
 type: Request
 parentId: wrk_98fdfa42f9344c358d9f979b7f00e404
-modified: 1644768535606
-created: 1644767337281
+modified: 1644768538093
+created: 1644768396423
 url: http://localhost:3000/api/v1/project-type
-name: Crastonic Get Project Type
+name: Crastonic Delete Project Type
 description: ""
-method: GET
-body: {}
+method: DELETE
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "id": 3
+    }
 parameters: []
 headers:
   - id: pair_3ef757d7a2b748dd9f4a77f738070a7b
@@ -15,9 +20,11 @@ headers:
     value: Bearer
       eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImF0aXEyQGdtYWlsLmNvbSIsImFwaWtleSI6IjBjZTAyMTEwLThjZTQtMTFlYy05NmQyLWFmZGVhYmQ1N2I2ZCIsImlhdCI6MTY0NDc2NzIzNywiZXhwIjoxNjQ0ODY3MjM3fQ.goUjbPi8CTOehpXXi8VsavEg9wfNto-dHtBMKdL3sAo
     description: ""
-    disabled: false
+  - name: Content-Type
+    value: application/json
+    id: pair_79a218604dc14146b3b4c4151e7388ee
 authentication: {}
-metaSortKey: -1624976608364.4375
+metaSortKey: -1624976608358.1875
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

@@ -1,7 +1,7 @@
 _id: req_8cfdf8db19a5463f8e873535c471eb68
 type: Request
 parentId: wrk_98fdfa42f9344c358d9f979b7f00e404
-modified: 1644767238893
+modified: 1644768529651
 created: 1644766238585
 url: http://localhost:3000/api/v1/get-authentication-token?email=atiq2@gmail.com
 name: Crastonic Get Auth Token
@@ -15,7 +15,7 @@ headers:
     value: 0ce02110-8ce4-11ec-96d2-afdeabd57b6d
     description: ""
 authentication: {}
-metaSortKey: -1624976608339.4375
+metaSortKey: -1624976608376.9375
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
