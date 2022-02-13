@@ -1,0 +1,35 @@
+_id: req_81496bfecfba48bb923bfb9ca3139f93
+type: Request
+parentId: wrk_98fdfa42f9344c358d9f979b7f00e404
+modified: 1644771258897
+created: 1644771228437
+url: http://localhost:3000/api/v1/user-type-by-id
+name: Crastonic Get User Type By Id
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "id": 3
+    }
+parameters: []
+headers:
+  - id: pair_3ef757d7a2b748dd9f4a77f738070a7b
+    name: Authorization
+    value: Bearer
+      eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImF0aXEyQGdtYWlsLmNvbSIsImFwaWtleSI6IjBjZTAyMTEwLThjZTQtMTFlYy05NmQyLWFmZGVhYmQ1N2I2ZCIsImlhdCI6MTY0NDc2NzIzNywiZXhwIjoxNjQ0ODY3MjM3fQ.goUjbPi8CTOehpXXi8VsavEg9wfNto-dHtBMKdL3sAo
+    description: ""
+    disabled: false
+  - name: Content-Type
+    value: application/json
+    id: pair_79a218604dc14146b3b4c4151e7388ee
+authentication: {}
+metaSortKey: -1624976608220.6875
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

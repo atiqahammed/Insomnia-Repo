@@ -1,0 +1,35 @@
+_id: req_008c7f90476e46918da20bdd45bbea88
+type: Request
+parentId: wrk_98fdfa42f9344c358d9f979b7f00e404
+modified: 1644771287853
+created: 1644771269611
+url: http://localhost:3000/api/v1/user-type
+name: Crastonic Delete User Type
+description: ""
+method: DELETE
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "id": 3
+    }
+parameters: []
+headers:
+  - id: pair_3ef757d7a2b748dd9f4a77f738070a7b
+    name: Authorization
+    value: Bearer
+      eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImF0aXEyQGdtYWlsLmNvbSIsImFwaWtleSI6IjBjZTAyMTEwLThjZTQtMTFlYy05NmQyLWFmZGVhYmQ1N2I2ZCIsImlhdCI6MTY0NDc2NzIzNywiZXhwIjoxNjQ0ODY3MjM3fQ.goUjbPi8CTOehpXXi8VsavEg9wfNto-dHtBMKdL3sAo
+    description: ""
+    disabled: false
+  - name: Content-Type
+    value: application/json
+    id: pair_79a218604dc14146b3b4c4151e7388ee
+authentication: {}
+metaSortKey: -1624976608345.6875
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
