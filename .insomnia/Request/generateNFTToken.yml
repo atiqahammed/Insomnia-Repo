@@ -1,0 +1,35 @@
+_id: generateNFTToken
+type: Request
+parentId: fld_wrk_98fdfa42f9344c358d9f979b7f00e404f53bc260
+modified: 1645090994696
+created: 1645090994696
+url: "{{ base_url }}/api/v1/computeId"
+name: generate NFT tokenID by partner
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "partner": "string",
+      "functionParameter": {
+        "owner": "string",
+        "cardCotentId": "string",
+        "serialNumber": "string",
+        "metaDataDigest": "string"
+      }
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    disabled: false
+    value: application/json
+authentication: {}
+metaSortKey: -1645090994696
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

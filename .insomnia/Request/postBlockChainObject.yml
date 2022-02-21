@@ -1,0 +1,50 @@
+_id: postBlockChainObject
+type: Request
+parentId: fld_wrk_98fdfa42f9344c358d9f979b7f00e404f53bc260
+modified: 1645090994698
+created: 1645090994698
+url: "{{ base_url }}/api/v1/createCardContent"
+name: create card content by partner
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "partner": "string",
+      "functionParameter": {
+        "cardContentId": "string",
+        "title": "string",
+        "description": "string",
+        "mediaType": "string",
+        "mediaDataHash": [
+          "string"
+        ],
+        "mediaDataUrl": [
+          "string"
+        ],
+        "organization": "string",
+        "collection": "string",
+        "level": "string",
+        "editionSize": "string"
+      },
+      "userWalletParameter": {
+        "signedBytes": "string",
+        "walletAddress": "string",
+        "ownerAddress": "string"
+      }
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    disabled: false
+    value: application/json
+authentication: {}
+metaSortKey: -1645090994698
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
