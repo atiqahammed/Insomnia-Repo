@@ -1,0 +1,29 @@
+_id: req_30b2f3276a3a48c6923683e1e336ffd1
+type: Request
+parentId: wrk_98fdfa42f9344c358d9f979b7f00e404
+modified: 1645527904666
+created: 1645434719087
+url: http://localhost:4000/api/generate-charecters
+name: Avalon Request
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"characterCount": 1
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_447c1a638b4c4213a99ad4b98740c477
+authentication: {}
+metaSortKey: -1645434719087
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
