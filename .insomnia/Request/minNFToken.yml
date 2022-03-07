@@ -1,7 +1,7 @@
 _id: minNFToken
 type: Request
 parentId: fld_wrk_98fdfa42f9344c358d9f979b7f00e404f53bc260
-modified: 1645090994694
+modified: 1645778809015
 created: 1645090994694
 url: "{{ base_url }}/api/v1/crateNFT"
 name: mint NFT token by partner
@@ -30,6 +30,7 @@ headers:
   - name: Content-Type
     disabled: false
     value: application/json
+    id: pair_38d552813a2e4181891e5c7d34b1a71b
 authentication: {}
 metaSortKey: -1645090994694
 isPrivate: false

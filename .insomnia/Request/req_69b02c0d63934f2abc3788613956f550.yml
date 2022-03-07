@@ -1,7 +1,7 @@
 _id: req_69b02c0d63934f2abc3788613956f550
 type: Request
 parentId: wrk_98fdfa42f9344c358d9f979b7f00e404
-modified: 1644504716746
+modified: 1646299461193
 created: 1638089382783
 url: "{{base_url}}/marketplace-transfer-nft"
 name: Market place transfer
@@ -11,14 +11,14 @@ body:
   mimeType: application/json
   text: |-
     {
-      "fromKUW": "0x47503EEE8B77A3EDdC1A2856350172Bb1f3880ef",
-      "toKUW": "0x65eD96755a427726625a6217842E2046e8E980d0",
+      "fromKUW": "0x4cEc79844951A3500471FB85632586ED02a6A1A5",
+      "toKUW": "0x4Aa816EbbD6F67881c1df1e298081B43f6944147",
       "functionName": "marketplaceTransferNFT",
       "functionParameter": [
         {
           "partner": "RLWC",
           "tokenIds": [
-          	"7776945756243544"
+          	"3382740790739877"
         	]
         }
       ]
@@ -31,7 +31,7 @@ headers:
   - id: pair_ab8fbab5d7d147ea830857a0d372a48f
     name: Authorization
     value: Bearer
-      eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcm9tQWRkcmVzcyI6IkVPQSIsImFwaWtleSI6IjFhYjJjM2Q0ZTVmNjFhZDhjM2Q0ZTVmOCIsImlhdCI6MTY0NDUwMzM5MywiZXhwIjoxNjQ1NTAzMzkzfQ.cmobjx3DILyTK2PbJadm12VV1tSV6qiHNnaPQWDbikU
+      eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcm9tQWRkcmVzcyI6IjB4MEExZUY3QUI5NEViQTg5QzAxMmNiNTUyMDZkNTM2NDY3OTkwNDc1MyIsImFwaWtleSI6IjFhYjJjM2Q0ZTVmNjFhZDhjM2Q0ZTVmOCIsImlhdCI6MTY0NjI5NzM5OSwiZXhwIjoxNjQ2MzAzMzk5fQ.Xk_QTBT_6ZWMEPLIeZ__IQBqIM82vc8vbikmLvfWJEU
     description: ""
   - id: pair_f09ad0198516401cafc696d5eee149ca
     name: X-API-KEY

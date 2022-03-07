@@ -1,12 +1,12 @@
 _id: req_30b2f3276a3a48c6923683e1e336ffd1
 type: Request
 parentId: wrk_98fdfa42f9344c358d9f979b7f00e404
-modified: 1645527904666
+modified: 1646644891899
 created: 1645434719087
-url: http://localhost:4000/api/generate-charecters
+url: http://localhost:4000/api/get-remaining-character-count
 name: Avalon Request
 description: ""
-method: POST
+method: GET
 body:
   mimeType: application/json
   text: |-

@@ -1,7 +1,7 @@
 _id: req_5d2895f017e447859b5cc339e2dfa80e
 type: Request
 parentId: wrk_98fdfa42f9344c358d9f979b7f00e404
-modified: 1644504709432
+modified: 1646650937441
 created: 1630405025059
 url: "{{base_url}}/create-nft-batch"
 name: Create NFT Batch
@@ -11,56 +11,53 @@ body:
   mimeType: application/json
   text: >-
     {
-    	"partner": "RLWC",
-    	"functionName": "createNftBatch",
-    	"functionParameter": {
-    		"toKUW": "0x65eD96755a427726625a6217842E2046e8E980d0",
-    		"nfts": [
-    			{
-    				"cardContentId": 224,
-    				"serialNumber": 240,
-    				"nftMetadata": {
-    					"description": "Friendly OpenSea Creature that enjoys long swims in the ocean.",
-    					"external_url": "https://openseacreatures.io/3",
-    					"image": "https://storage.googleapis.com/opensea-prod.appspot.com/puffs/3.png",
-    					"name": "Dave Starbelly",
-    					"attributes": [
-    						{
-    							"trait_type": "Organization nwl 56",
-    							"value": "NuARca"
-    						},
-    						{
-    							"trait_type": "Collection",
-    							"value": "Collection value"
-    						},
-    						{
-    							"trait_type": "Level",
-    							"value": "Level value"
-    						},
-    						{
-    							"display_type": "number",
-    							"trait_type": "Edition Size",
-    							"value": 3999992
-    						},
-    						{
-    							"trait_type": "Media Type",
-    							"value": "media-type"
-    						},
-    						{
-    							"display_type": "number",
-    							"trait_type": "Card Content Id",
-    							"value": 224
-    						},
-    						{
-    							"display_type": "number",
-    							"trait_type": "Serial Number",
-    							"value": 240
-    						}
-    					]
-    				}
-    			}
-    		]
-    	}
+      "partner": "RLWC",
+      "functionName": "createNFTBatch",
+      "functionParameter": {
+        "toKUW": "0x4cEc79844951A3500471FB85632586ED02a6A1A5",
+        "toEOA": "0x36EF373c932b15736f850f39a9D55A06BF171aF1",
+        "nfts": [
+          {
+            "cardContentId": 279,
+            "serialNumber": 648,
+            "nftMetadata": {
+              "description": "Kick-start your RLWC2021 digital collection with a commemorative token designed for you, a member of the Foundation Fan Squad",
+              "external_url": "https://myodisprodstorage.blob.core.windows.net/rlwc/moments/MainNft_279.mp4",
+              "image": "https://myodisprodstorage.blob.core.windows.net/rlwc/cardcontents/CardFront_279.jpg",
+              "name": "A commemorative token for you, our Foundation Fan Squad",
+              "attributes": [
+                {
+                  "display_type": "number",
+                  "trait_type": "Card_Content_Id",
+                  "value": 279
+                },
+                {
+                  "display_type": "number",
+                  "trait_type": "Serial_Number",
+                  "value": 648
+                },
+                {
+                  "trait_type": "Organization",
+                  "value": "Rugby League World Cup14"
+                },
+                {
+                  "trait_type": "Collection",
+                  "value": "Foundation Fan Squad Collection3"
+                },
+                {
+                  "trait_type": "Level",
+                  "value": "2"
+                },
+                {
+                  "display_type": "number",
+                  "trait_type": "Edition_Size",
+                  "value": 24481
+                }
+              ]
+            }
+          }
+        ]
+      }
     }
 parameters: []
 headers:
@@ -74,7 +71,7 @@ headers:
   - id: pair_2cc3b575712146cdab2bb89c7a61fccd
     name: Authorization
     value: Bearer
-      eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcm9tQWRkcmVzcyI6IkVPQSIsImFwaWtleSI6IjFhYjJjM2Q0ZTVmNjFhZDhjM2Q0ZTVmOCIsImlhdCI6MTY0NDUwMzM5MywiZXhwIjoxNjQ1NTAzMzkzfQ.cmobjx3DILyTK2PbJadm12VV1tSV6qiHNnaPQWDbikU
+      eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcm9tQWRkcmVzcyI6IjB4ZTdiNTU5MEEyNzMwYUY2RWM3NjBBMWY2NjM3NThGMjMyMkFFNTcwOSIsImFwaWtleSI6IjFhYjJjM2Q0ZTVmNjFhZDhjM2Q0ZTVmOCIsImlhdCI6MTY0NjY0OTg3MywiZXhwIjoxNjQ2NjU1ODczfQ.2NSHMG6dVv1g8ZfclEzv9kwYo6uWQ0D5mbsUtWR44BU
     description: ""
 authentication: {}
 metaSortKey: -1625027839409.25

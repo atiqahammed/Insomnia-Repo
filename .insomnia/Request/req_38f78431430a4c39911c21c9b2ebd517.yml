@@ -1,7 +1,7 @@
 _id: req_38f78431430a4c39911c21c9b2ebd517
 type: Request
 parentId: wrk_98fdfa42f9344c358d9f979b7f00e404
-modified: 1644228383398
+modified: 1646142413793
 created: 1625472904906
 url: "{{base_url}}/compute-id"
 name: Compute Id
@@ -11,50 +11,46 @@ body:
   mimeType: application/json
   text: >-
     {
-    	"partner": "NWL",
+    	"partner": "RLWC",
     	"functionParameter": {
-    		"cardContentId": 3887897,
-    		"serialNumber": 3887897,
-    		"nftMetadata": {
-    			"description": "Friendly OpenSea Creature that enjoys long swims in the ocean.",
-    			"external_url": "https://openseacreatures.io/3",
-    			"image": "https://storage.googleapis.com/opensea-prod.appspot.com/puffs/3.png",
-    			"name": "Dave Starbelly",
-    			"attributes": [
-    				{
-    					"trait_type": "Organization nwl3gy",
-    					"value": "NuARca"
-    				},
-    				{
-    					"trait_type": "Collection",
-    					"value": "Collection value"
-    				},
-    				{
-    					"trait_type": "Level",
-    					"value": "Level value"
-    				},
-    				{
-    					"display_type": "number",
-    					"trait_type": "Edition Size",
-    					"value": 3999992
-    				},
-    				{
-    					"trait_type": "Media Type",
-    					"value": "media-type"
-    				},
-    				{
-    					"display_type": "number",
-    					"trait_type": "Card Content Id",
-    					"value": 3887897
-    				},
-    				{
-    					"display_type": "number",
-    					"trait_type": "Serial Number",
-    					"value": 3887897
-    				}
-    			]
-    		}
-    	}
+            "cardContentId": 279,
+            "serialNumber": 648,
+            "nftMetadata": {
+              "description": "Kick-start your RLWC2021 digital collection with a commemorative token designed for you, a member of the Foundation Fan Squad",
+              "external_url": "https://myodisprodstorage.blob.core.windows.net/rlwc/moments/MainNft_279.mp4",
+              "image": "https://myodisprodstorage.blob.core.windows.net/rlwc/cardcontents/CardFront_279.jpg",
+              "name": "A commemorative token for you, our Foundation Fan Squad",
+              "attributes": [
+                {
+                  "display_type": "number",
+                  "trait_type": "Card_Content_Id",
+                  "value": 279
+                },
+                {
+                  "display_type": "number",
+                  "trait_type": "Serial_Number",
+                  "value": 648
+                },
+                {
+                  "trait_type": "Organization",
+                  "value": "Rugby League World Cup"
+                },
+                {
+                  "trait_type": "Collection",
+                  "value": "Foundation Fan Squad Collection"
+                },
+                {
+                  "trait_type": "Level",
+                  "value": "2"
+                },
+                {
+                  "display_type": "number",
+                  "trait_type": "Edition_Size",
+                  "value": 24481
+                }
+              ]
+            }
+          }
     }
 parameters: []
 headers:
@@ -66,6 +62,11 @@ headers:
     value: 1ab2c3d4e5f61ad8c3d4e5f8
     description: ""
     disabled: false
+  - id: pair_3ffd3e3377a64dd090b1f57e218577dd
+    name: Authorization
+    value: Bearer
+      eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcm9tQWRkcmVzcyI6IkVPQSIsImFwaWtleSI6IjFhYjJjM2Q0ZTVmNjFhZDhjM2Q0ZTVmOCIsImlhdCI6MTY0NjE0MjIyMSwiZXhwIjoxNjQ2MTQ4MjIxfQ.mjDFSbITh_KpED1iQ_-u4q3iNjwv4EPmyycALttU1xQ
+    description: ""
 authentication: {}
 metaSortKey: -1625046468896
 isPrivate: false
