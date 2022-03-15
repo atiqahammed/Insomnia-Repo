@@ -1,7 +1,7 @@
 _id: req_f36bb95f62dc4eb88c0af4c29bce7bae
 type: Request
 parentId: wrk_98fdfa42f9344c358d9f979b7f00e404
-modified: 1644770635988
+modified: 1644773048878
 created: 1644770584637
 url: http://localhost:3000/api/v1/user-type
 name: Crastonic Save User Type

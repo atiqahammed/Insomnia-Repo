@@ -1,17 +1,20 @@
-_id: req_c2ae32660687491db54b7c72adb1b7c4
+_id: req_c5927fd27469406f81952b5176b43cb3
 type: Request
 parentId: wrk_98fdfa42f9344c358d9f979b7f00e404
-modified: 1644771827604
-created: 1644768492025
-url: http://localhost:3000/api/v1/project-type-by-id
-name: Crastonic Get Project Type By Id
+modified: 1644773233779
+created: 1644772796702
+url: http://localhost:3000/api/v1/royalty-ratio
+name: Crastonic Save Royalty Ration
 description: ""
 method: POST
 body:
   mimeType: application/json
   text: |-
     {
-      "id": 4
+      "royaltyRate": 2.4,
+      "userInfoId": 1,
+      "userTypeId": 1,
+      "projectId": 6
     }
 parameters: []
 headers:
@@ -23,9 +26,9 @@ headers:
     disabled: false
   - name: Content-Type
     value: application/json
-    id: pair_79a218604dc14146b3b4c4151e7388ee
+    id: pair_a37e567ab2ff4b75b276cb99b54e3b77
 authentication: {}
-metaSortKey: -1624976608361.3125
+metaSortKey: -1624976608145.6875
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

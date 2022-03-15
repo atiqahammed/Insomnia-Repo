@@ -1,17 +1,17 @@
-_id: req_c2ae32660687491db54b7c72adb1b7c4
+_id: req_342fa80c60be431f83c865496fef3618
 type: Request
 parentId: wrk_98fdfa42f9344c358d9f979b7f00e404
-modified: 1644771827604
-created: 1644768492025
-url: http://localhost:3000/api/v1/project-type-by-id
-name: Crastonic Get Project Type By Id
+modified: 1644771983437
+created: 1644771943862
+url: http://localhost:3000/api/v1/payment-history
+name: Crastonic Delete Payment History
 description: ""
-method: POST
+method: DELETE
 body:
   mimeType: application/json
   text: |-
     {
-      "id": 4
+      "id": 11
     }
 parameters: []
 headers:
@@ -25,7 +25,7 @@ headers:
     value: application/json
     id: pair_79a218604dc14146b3b4c4151e7388ee
 authentication: {}
-metaSortKey: -1624976608361.3125
+metaSortKey: -1624976608133.1875
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

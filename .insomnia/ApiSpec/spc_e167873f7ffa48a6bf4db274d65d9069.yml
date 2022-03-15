@@ -1,9 +1,9 @@
 _id: spc_e167873f7ffa48a6bf4db274d65d9069
 type: ApiSpec
 parentId: wrk_98fdfa42f9344c358d9f979b7f00e404
-modified: 1630566589372
+modified: 1644822517971
 created: 1624971828264
-fileName: NuArca - NFT API
+fileName: My Api Request Response
 contents: |-
   swagger: '2.0'
   info:
