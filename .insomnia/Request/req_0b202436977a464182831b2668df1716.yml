@@ -1,21 +1,77 @@
 _id: req_0b202436977a464182831b2668df1716
 type: Request
 parentId: wrk_98fdfa42f9344c358d9f979b7f00e404
-modified: 1644770573151
+modified: 1647603638440
 created: 1644770549067
-url: http://localhost:3000/api/v1/user-type
-name: Crastonic Get User Type
+url: http://localhost:3000/api/v1/create-nft-batch
+name: create-nft-batch
 description: ""
-method: GET
-body: {}
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    {
+      "projectId": 1,
+      "functionName": "createNftBatch",
+      "functionParameter": {
+        "toEOA": "0x37d6126d4173FcBbCdcC8e0D38C74D5FCd99D448",
+        "nfts": [
+          {
+              "projectId": 1,
+              "nftMetadata": {
+    					"description": "Friendly OpenSea Creature that enjoys long swims in the ocean.",
+    					"external_url": "https://openseacreatures.io/tokenId",
+    					"image": "https://storage.googleapis.com/opensea-prod.appspot.com/puffs/3.png",
+    					"name": "Dave Starbelly",
+    					"attributes": [
+    						{
+    							"display_type": "string",
+    							"trait_type": "Project-name",
+    							"value": "sample project name"
+    						},
+    						{
+    							"display_type": "number",
+    							"trait_type": "edition no",
+    							"value": 5
+    						}
+    					]
+    				}
+          },
+          {
+              "projectId": 1,
+              "nftMetadata": {
+    					"description": "Friendly OpenSea Creature that enjoys long swims in the ocean.",
+    					"external_url": "https://openseacreatures.io/tokenId",
+    					"image": "https://storage.googleapis.com/opensea-prod.appspot.com/puffs/3.png",
+    					"name": "Dave Starbelly",
+    					"attributes": [
+    						{
+    							"display_type": "string",
+    							"trait_type": "Project-name",
+    							"value": "sample project name"
+    						},
+    						{
+    							"display_type": "number",
+    							"trait_type": "edition no",
+    							"value": 5
+    						}
+    					]
+    				}
+          }
+        ]
+      }
+    }
 parameters: []
 headers:
   - id: pair_3ef757d7a2b748dd9f4a77f738070a7b
     name: Authorization
     value: Bearer
-      eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImF0aXEyQGdtYWlsLmNvbSIsImFwaWtleSI6IjBjZTAyMTEwLThjZTQtMTFlYy05NmQyLWFmZGVhYmQ1N2I2ZCIsImlhdCI6MTY0NDc2NzIzNywiZXhwIjoxNjQ0ODY3MjM3fQ.goUjbPi8CTOehpXXi8VsavEg9wfNto-dHtBMKdL3sAo
+      eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcGlrZXkiOiIxYWIyYzNkNGU1ZjYxYWQ4YzNkNGU1ZjgiLCJpYXQiOjE2NDc1OTg1MTEsImV4cCI6MTY0NzY5ODUxMX0.kf5KcNvVoyIXUBvuQwPN9nqKVAeoQB4vuqyYGW9hS5s
     description: ""
     disabled: false
+  - name: Content-Type
+    value: application/json
+    id: pair_a4ff995861b544ce941a66122fc868ef
 authentication: {}
 metaSortKey: -1624976608208.1875
 isPrivate: false

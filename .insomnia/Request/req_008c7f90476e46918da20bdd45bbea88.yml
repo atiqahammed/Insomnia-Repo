@@ -1,24 +1,28 @@
 _id: req_008c7f90476e46918da20bdd45bbea88
 type: Request
 parentId: wrk_98fdfa42f9344c358d9f979b7f00e404
-modified: 1644771287853
+modified: 1647598843847
 created: 1644771269611
-url: http://localhost:3000/api/v1/user-type
-name: Crastonic Delete User Type
+url: http://localhost:3000/api/v1/token-allocation
+name: token-allocation
 description: ""
-method: DELETE
+method: POST
 body:
   mimeType: application/json
   text: |-
     {
-      "id": 3
+      "projectId": 1,
+      "governance": 40,
+      "utility": 40,
+    	"fundraising": 20,
+    	"calculateby": "percent"
     }
 parameters: []
 headers:
   - id: pair_3ef757d7a2b748dd9f4a77f738070a7b
     name: Authorization
     value: Bearer
-      eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImF0aXEyQGdtYWlsLmNvbSIsImFwaWtleSI6IjBjZTAyMTEwLThjZTQtMTFlYy05NmQyLWFmZGVhYmQ1N2I2ZCIsImlhdCI6MTY0NDc2NzIzNywiZXhwIjoxNjQ0ODY3MjM3fQ.goUjbPi8CTOehpXXi8VsavEg9wfNto-dHtBMKdL3sAo
+      eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcGlrZXkiOiIxYWIyYzNkNGU1ZjYxYWQ4YzNkNGU1ZjgiLCJpYXQiOjE2NDc1OTg1MTEsImV4cCI6MTY0NzY5ODUxMX0.kf5KcNvVoyIXUBvuQwPN9nqKVAeoQB4vuqyYGW9hS5s
     description: ""
     disabled: false
   - name: Content-Type

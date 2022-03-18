@@ -1,55 +1,29 @@
 _id: req_22ad93a978a64c16812cf61c0ab94964
 type: Request
 parentId: wrk_98fdfa42f9344c358d9f979b7f00e404
-modified: 1647370292152
+modified: 1647601432233
 created: 1644768816933
-url: http://localhost:3000/api/v1/create-project
-name: Crastonic Save Project
+url: http://localhost:3000/api/v1/vote
+name: vote
 description: ""
 method: POST
 body:
   mimeType: application/json
-  text: |-
+  text: |
     {
-      "name": "mft sample project",
-      "projectId": 1, 
-    	"projectTypeId": 2,
-      "tokenName": "Creabo Token",
-      "tokenSymbol": "Creabo",
-      "maxToken": 1000000, 
-      "votingPower" : "1VPM",
-    	"whoCanVote": "AllMembers",
-      "fundRaising": {
-    		"needed": "true",
-    		"data": {
-    							"startDate": "2022-03-08T00:55:46+00:00",
-    							"endDate": "2022-03-08T00:55:46+00:00",
-    							"targetAmount": 100000, 
-    							"minimumAmount":90000,
-    							"unit": "matic",
-    							"tokenPrice": 1.2
-    						} 
-    	},
-    	"tokenAllocation":{
-    	  "projectId": 1,
-    	  "governance": 40,
-    	  "utility": 40,
-    		"fundraising": 20,
-    		"calculateby": "percent"
-    	},
-     "tokenDistribution" : {
-    	 "governance" : [{
-    	  "eoa": "0xca2574CCb99014AE5F2620df4C7743903Ea0a030",
-    	  "percent": 100
-    	}]
-     }
+      "projectId": 1,
+      "groupId" : 1,
+      "proposalId" : 1,
+      "eoa": "0xca2574CCb99014AE5F2620df4C7743903Ea0a030",
+      "vote": "Yes",
+      "date": "2022-03-15T19:14:41.468Z"
     }
 parameters: []
 headers:
   - id: pair_3ef757d7a2b748dd9f4a77f738070a7b
     name: Authorization
     value: Bearer
-      eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcm9tQWRkcmVzcyI6IlRvcnVzUHVibGljS2V5IiwiYXBpa2V5IjoiMWFiMmMzZDRlNWY2MWFkOGMzZDRlNWY4IiwiaWF0IjoxNjQ3MzY4NTkzLCJleHAiOjE2NDc0Njg1OTN9.z0Jxqk9UYp36n75l0yWuAWeq7RSA02dqXjtYKSSdow4
+      eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcGlrZXkiOiIxYWIyYzNkNGU1ZjYxYWQ4YzNkNGU1ZjgiLCJpYXQiOjE2NDc1OTg1MTEsImV4cCI6MTY0NzY5ODUxMX0.kf5KcNvVoyIXUBvuQwPN9nqKVAeoQB4vuqyYGW9hS5s
     description: ""
   - name: Content-Type
     value: application/json

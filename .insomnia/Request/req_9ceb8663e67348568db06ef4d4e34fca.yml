@@ -1,24 +1,30 @@
 _id: req_9ceb8663e67348568db06ef4d4e34fca
 type: Request
 parentId: wrk_98fdfa42f9344c358d9f979b7f00e404
-modified: 1644769853224
+modified: 1647599947945
 created: 1644769813585
-url: http://localhost:3000/api/v1/project
-name: Crastonic Delete Project
+url: http://localhost:3000/api/v1/allocation-breakdown
+name: allocation-breakdown
 description: ""
-method: DELETE
+method: POST
 body:
   mimeType: application/json
-  text: |-
+  text: |
     {
-      "id": 7
+    	"projectId": 1, 
+    	"distribution" : {
+    	 	"governance" : [{
+    		 	"eoa": "0xca2574CCb99014AE5F2620df4C7743903Ea0a030",
+    		  "percent": 100
+    		}]
+    	}
     }
 parameters: []
 headers:
   - id: pair_3ef757d7a2b748dd9f4a77f738070a7b
     name: Authorization
     value: Bearer
-      eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImF0aXEyQGdtYWlsLmNvbSIsImFwaWtleSI6IjBjZTAyMTEwLThjZTQtMTFlYy05NmQyLWFmZGVhYmQ1N2I2ZCIsImlhdCI6MTY0NDc2NzIzNywiZXhwIjoxNjQ0ODY3MjM3fQ.goUjbPi8CTOehpXXi8VsavEg9wfNto-dHtBMKdL3sAo
+      eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcGlrZXkiOiIxYWIyYzNkNGU1ZjYxYWQ4YzNkNGU1ZjgiLCJpYXQiOjE2NDc1OTg1MTEsImV4cCI6MTY0NzY5ODUxMX0.kf5KcNvVoyIXUBvuQwPN9nqKVAeoQB4vuqyYGW9hS5s
     description: ""
     disabled: false
   - name: Content-Type

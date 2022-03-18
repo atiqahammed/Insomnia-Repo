@@ -1,24 +1,46 @@
 _id: req_88d90348edd04cbebcfc01f801292c03
 type: Request
 parentId: wrk_98fdfa42f9344c358d9f979b7f00e404
-modified: 1644773039320
+modified: 1647599955345
 created: 1644769883597
-url: http://localhost:3000/api/v1/project-by-id
-name: Crastonic Get Project By Id
+url: http://localhost:3000/api/v1/proposals
+name: proposals
 description: ""
 method: POST
 body:
   mimeType: application/json
   text: |-
     {
-      "id": 4
+      "projectId": 1,
+      "groupId": 1,
+      "proposalId": 1,
+      "proposalType": "YES/NO",
+      "proposalText": "new claim",
+      "action": "TokenAllocation",
+      "minimumThreshold": 50,
+      "expiryDate": "2022-03-15T19:09:18.528Z",
+      "blacklistedEOA": [
+        "0xca2574CCb99014AE5F2620df4C7743903Ea0a030"
+      ],
+      "actionPerformDate": "2022-03-15T19:09:18.528Z",
+      "instantTrigger": "yes",
+      "data": {
+        "governance": 40,
+        "utility": 40,
+        "fundraising": 20
+      },
+      "data2": {
+        "eoa": "0xca2574CCb99014AE5F2620df4C7743903Ea0a030",
+        "amount": 40,
+        "unit": "matic"
+      }
     }
 parameters: []
 headers:
   - id: pair_3ef757d7a2b748dd9f4a77f738070a7b
     name: Authorization
     value: Bearer
-      eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImF0aXEyQGdtYWlsLmNvbSIsImFwaWtleSI6IjBjZTAyMTEwLThjZTQtMTFlYy05NmQyLWFmZGVhYmQ1N2I2ZCIsImlhdCI6MTY0NDc2NzIzNywiZXhwIjoxNjQ0ODY3MjM3fQ.goUjbPi8CTOehpXXi8VsavEg9wfNto-dHtBMKdL3sAo
+      eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcGlrZXkiOiIxYWIyYzNkNGU1ZjYxYWQ4YzNkNGU1ZjgiLCJpYXQiOjE2NDc1OTg1MTEsImV4cCI6MTY0NzY5ODUxMX0.kf5KcNvVoyIXUBvuQwPN9nqKVAeoQB4vuqyYGW9hS5s
     description: ""
     disabled: false
   - name: Content-Type

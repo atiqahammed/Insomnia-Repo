@@ -1,24 +1,63 @@
 _id: req_c2ae32660687491db54b7c72adb1b7c4
 type: Request
 parentId: wrk_98fdfa42f9344c358d9f979b7f00e404
-modified: 1644771827604
+modified: 1647599872242
 created: 1644768492025
-url: http://localhost:3000/api/v1/project-type-by-id
-name: Crastonic Get Project Type By Id
+url: http://localhost:3000/api/v1/create-project
+name: create-project
 description: ""
 method: POST
 body:
   mimeType: application/json
   text: |-
     {
-      "id": 4
+      "name": "nft sample project",
+      "projectId": 1, 
+      "projectTypeId": 1,
+      "tokenName": "Creabo Token",
+      "tokenSymbol": "Creabo",
+      "maxToken": 1000000,
+      "votingPower": "1VPM",
+      "whoCanVote": "AllMembers",
+      "fundRaising": {
+        "needed": true,
+        "data": {
+    							"startDate": "2022-03-08T00:55:46+00:00",
+    							"endDate": "2022-03-08T00:55:46+00:00",
+    							"targetAmount": 100000, 
+    							"minimumAmount":90000,
+    							"unit": "matic",
+    							"tokenPrice": 1.2
+    						} 
+      },
+      "tokenAllocation": {
+    	  "projectId": 1,
+    	  "governance": 40,
+    	  "utility": 40,
+    		"fundraising": 20,
+    		"calculateby": "percent"
+    	},
+      "tokenDistribution":{
+      	"governance" : [{
+         	"eoa": "0xca2574CCb99014AE5F2620df4C7743903Ea0a030",
+        	"percent": 100
+        }],
+        "utility" : [{
+        	"eoa": "0xca2574CCb99014AE5F2620df4C7743903Ea0a030",
+        	"percent": 100
+        }],
+        "fundraising" : [{
+        	"eoa": "0xca2574CCb99014AE5F2620df4C7743903Ea0a030",
+        	"percent": 100
+        }]
+      }
     }
 parameters: []
 headers:
   - id: pair_3ef757d7a2b748dd9f4a77f738070a7b
     name: Authorization
     value: Bearer
-      eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImF0aXEyQGdtYWlsLmNvbSIsImFwaWtleSI6IjBjZTAyMTEwLThjZTQtMTFlYy05NmQyLWFmZGVhYmQ1N2I2ZCIsImlhdCI6MTY0NDc2NzIzNywiZXhwIjoxNjQ0ODY3MjM3fQ.goUjbPi8CTOehpXXi8VsavEg9wfNto-dHtBMKdL3sAo
+      eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcGlrZXkiOiIxYWIyYzNkNGU1ZjYxYWQ4YzNkNGU1ZjgiLCJpYXQiOjE2NDc0NTQwOTAsImV4cCI6MTY0NzU1NDA5MH0.nQu8FzKvoj0A64YrJaSCBGyinWn0nU5PE7dchwvBhOg
     description: ""
     disabled: false
   - name: Content-Type

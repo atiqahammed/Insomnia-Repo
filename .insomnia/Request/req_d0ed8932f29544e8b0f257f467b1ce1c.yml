@@ -1,24 +1,25 @@
 _id: req_d0ed8932f29544e8b0f257f467b1ce1c
 type: Request
 parentId: wrk_98fdfa42f9344c358d9f979b7f00e404
-modified: 1647368575966
+modified: 1647454880402
 created: 1644768275853
-url: http://localhost:3000/api/v1/project-type
-name: Crastonic Save Project Type
+url: http://localhost:3000/api/v1/get-contract-address-by-project
+name: get-contract-address-by-project
 description: ""
 method: POST
 body:
   mimeType: application/json
   text: |-
     {
-      "name": "new prject 4"
+    	"projectId": 1,
+      "addressType" : "Govornance"
     }
 parameters: []
 headers:
   - id: pair_3ef757d7a2b748dd9f4a77f738070a7b
     name: Authorization
     value: Bearer
-      eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImF0aXEyQGdtYWlsLmNvbSIsImFwaWtleSI6IjBjZTAyMTEwLThjZTQtMTFlYy05NmQyLWFmZGVhYmQ1N2I2ZCIsImlhdCI6MTY0NDc2NzIzNywiZXhwIjoxNjQ0ODY3MjM3fQ.goUjbPi8CTOehpXXi8VsavEg9wfNto-dHtBMKdL3sAo
+      eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcGlrZXkiOiIxYWIyYzNkNGU1ZjYxYWQ4YzNkNGU1ZjgiLCJpYXQiOjE2NDc0NTQwOTAsImV4cCI6MTY0NzU1NDA5MH0.nQu8FzKvoj0A64YrJaSCBGyinWn0nU5PE7dchwvBhOg
     description: ""
   - name: Content-Type
     value: application/json

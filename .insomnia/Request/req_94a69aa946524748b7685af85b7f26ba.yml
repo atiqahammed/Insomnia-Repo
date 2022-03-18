@@ -1,10 +1,10 @@
 _id: req_94a69aa946524748b7685af85b7f26ba
 type: Request
 parentId: wrk_98fdfa42f9344c358d9f979b7f00e404
-modified: 1644768535606
+modified: 1647454969259
 created: 1644767337281
-url: http://localhost:3000/api/v1/project-type
-name: Crastonic Get Project Type
+url: http://localhost:3000/api/v1/get-all-projects
+name: get-all-projects
 description: ""
 method: GET
 body: {}
@@ -13,7 +13,7 @@ headers:
   - id: pair_3ef757d7a2b748dd9f4a77f738070a7b
     name: Authorization
     value: Bearer
-      eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImF0aXEyQGdtYWlsLmNvbSIsImFwaWtleSI6IjBjZTAyMTEwLThjZTQtMTFlYy05NmQyLWFmZGVhYmQ1N2I2ZCIsImlhdCI6MTY0NDc2NzIzNywiZXhwIjoxNjQ0ODY3MjM3fQ.goUjbPi8CTOehpXXi8VsavEg9wfNto-dHtBMKdL3sAo
+      eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcGlrZXkiOiIxYWIyYzNkNGU1ZjYxYWQ4YzNkNGU1ZjgiLCJpYXQiOjE2NDc0NTQwOTAsImV4cCI6MTY0NzU1NDA5MH0.nQu8FzKvoj0A64YrJaSCBGyinWn0nU5PE7dchwvBhOg
     description: ""
     disabled: false
 authentication: {}
