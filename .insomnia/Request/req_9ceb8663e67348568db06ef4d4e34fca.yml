@@ -1,7 +1,7 @@
 _id: req_9ceb8663e67348568db06ef4d4e34fca
 type: Request
 parentId: wrk_98fdfa42f9344c358d9f979b7f00e404
-modified: 1647599947945
+modified: 1647759606306
 created: 1644769813585
 url: http://localhost:3000/api/v1/allocation-breakdown
 name: allocation-breakdown
@@ -13,11 +13,19 @@ body:
     {
     	"projectId": 1, 
     	"distribution" : {
-    	 	"governance" : [{
-    		 	"eoa": "0xca2574CCb99014AE5F2620df4C7743903Ea0a030",
-    		  "percent": 100
-    		}]
-    	}
+      	"governance" : [{
+         	"eoa": "0xca2574CCb99014AE5F2620df4C7743903Ea0a030",
+        	"percent": 100
+        }],
+        "utility" : [{
+        	"eoa": "0xca2574CCb99014AE5F2620df4C7743903Ea0a030",
+        	"percent": 100
+        }],
+        "fundraising" : [{
+        	"eoa": "0xca2574CCb99014AE5F2620df4C7743903Ea0a030",
+        	"percent": 100
+        }]
+      }
     }
 parameters: []
 headers:
