@@ -1,0 +1,26 @@
+_id: req_bdc53401963442b08e863db52eab30b4
+type: Request
+parentId: wrk_98fdfa42f9344c358d9f979b7f00e404
+modified: 1648717558334
+created: 1648648137012
+url: https://myodis-webapi-prod.azurewebsites.net/CreateNFTBatchCallback
+name: Callback
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: '{"partner":"RLWC","functionName":"createNFTBatch","status":"success","messages":[],"data":{"transactionStatus":"mined","transactionHash":"0x876ba4d087cd2889f24bbd37fd9418f067cd80a28a01411416ad3c61c00ac4b6","uuid":"7b963740-968d-11ec-aec1-0bc443194b6c","tokenId":["9385969075471575"]}}'
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_7270c6543e5046d2bd2ce87a66ab1d68
+authentication: {}
+metaSortKey: -1648648137012
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

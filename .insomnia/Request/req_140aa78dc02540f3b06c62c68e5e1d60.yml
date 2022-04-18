@@ -1,10 +1,10 @@
 _id: req_140aa78dc02540f3b06c62c68e5e1d60
 type: Request
 parentId: wrk_98fdfa42f9344c358d9f979b7f00e404
-modified: 1647452811165
+modified: 1649845202537
 created: 1641298830502
-url: "{{base_url}}/get-authentication-token?fromAddress=0xe7b5590A2730aF6Ec760A\
-  1f663758F2322AE5709"
+url: "{{base_url}}/get-authentication-token?fromAddress=0x1E59243e34ad8c1D9385e\
+  4F79563297eDAEf051C"
 name: get Token
 description: ""
 method: GET

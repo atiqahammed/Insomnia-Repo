@@ -1,9 +1,9 @@
 _id: req_22ad93a978a64c16812cf61c0ab94964
 type: Request
 parentId: wrk_98fdfa42f9344c358d9f979b7f00e404
-modified: 1647601432233
+modified: 1649846680457
 created: 1644768816933
-url: http://localhost:3000/api/v1/vote
+url: "{{base_url}}/test-blob"
 name: vote
 description: ""
 method: POST

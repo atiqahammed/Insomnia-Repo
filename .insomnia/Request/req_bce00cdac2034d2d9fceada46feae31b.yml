@@ -1,0 +1,21 @@
+_id: req_bce00cdac2034d2d9fceada46feae31b
+type: Request
+parentId: wrk_98fdfa42f9344c358d9f979b7f00e404
+modified: 1647435164199
+created: 1647435162415
+url: http://myodis-nft-api.azurewebsites.net/
+name: Prod test
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1647435162415
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

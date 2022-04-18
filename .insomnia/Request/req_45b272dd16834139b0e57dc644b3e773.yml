@@ -1,7 +1,7 @@
 _id: req_45b272dd16834139b0e57dc644b3e773
 type: Request
 parentId: wrk_98fdfa42f9344c358d9f979b7f00e404
-modified: 1646638938409
+modified: 1649828333337
 created: 1625474904490
 url: "{{base_url}}/create-wallet"
 name: Create Wallet
@@ -13,8 +13,8 @@ body:
     {
     	"partner": "USNZCUP",
     	"functionParameter": {
-    		"walletName": "atiq168",
-    		"walletEmail": "atiq168@nuarca.com",
+    		"walletName": "atiq276",
+    		"walletEmail": "atiq276@nuarca.com",
     		"walletType": "User",
     		"owners": [
     			"0xba56E3b7fa389C870459503Cc227A40e809F124f"
@@ -35,7 +35,7 @@ headers:
   - id: pair_464d35ebfb284baaa56ba4aa3035f4ee
     name: Authorization
     value: Bearer
-      eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcm9tQWRkcmVzcyI6IjB4ZTdiNTU5MEEyNzMwYUY2RWM3NjBBMWY2NjM3NThGMjMyMkFFNTcwOSIsImFwaWtleSI6IjFhYjJjM2Q0ZTVmNjFhZDhjM2Q0ZTVmOCIsImlhdCI6MTY0NjYzNDgyMCwiZXhwIjoxNjQ2NjQwODIwfQ.qp59qkDwVd603Dej6GKxT06dWTxV6ApP8qIE6nJK48g
+      eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcm9tQWRkcmVzcyI6IjB4ZTdiNTU5MEEyNzMwYUY2RWM3NjBBMWY2NjM3NThGMjMyMkFFNTcwOSIsImFwaWtleSI6IjFhYjJjM2Q0ZTVmNjFhZDhjM2Q0ZTVmOCIsImlhdCI6MTY0ODcxNzcxOCwiZXhwIjoxNjQ4NzIzNzE4fQ.4RzKBAvk2wsagMGo7t1Xp-DNqhu4vjrtJphDe3JujqY
     description: ""
 authentication: {}
 metaSortKey: -1625046468908.5

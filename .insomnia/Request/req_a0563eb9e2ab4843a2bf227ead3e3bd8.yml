@@ -1,7 +1,7 @@
 _id: req_a0563eb9e2ab4843a2bf227ead3e3bd8
 type: Request
 parentId: wrk_98fdfa42f9344c358d9f979b7f00e404
-modified: 1646638958191
+modified: 1648629895471
 created: 1625474427959
 url: "{{base_url}}/create-card-content"
 name: Create Card Content
@@ -13,7 +13,7 @@ body:
     {
     	"partner": "RLWC",
     	"functionParameter": {
-    		"cardContentId": 236712,
+    		"cardContentId": 236725,
     		"title": "string1r",
     		"name": "string1r",
     		"description": "string",
@@ -38,7 +38,7 @@ headers:
   - id: pair_037c9abc59d341caa37135a2fc4fd690
     name: Authorization
     value: Bearer
-      eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcm9tQWRkcmVzcyI6IjB4ZTdiNTU5MEEyNzMwYUY2RWM3NjBBMWY2NjM3NThGMjMyMkFFNTcwOSIsImFwaWtleSI6IjFhYjJjM2Q0ZTVmNjFhZDhjM2Q0ZTVmOCIsImlhdCI6MTY0NjYzNDgyMCwiZXhwIjoxNjQ2NjQwODIwfQ.qp59qkDwVd603Dej6GKxT06dWTxV6ApP8qIE6nJK48g
+      eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcm9tQWRkcmVzcyI6IjB4ZTdiNTU5MEEyNzMwYUY2RWM3NjBBMWY2NjM3NThGMjMyMkFFNTcwOSIsImFwaWtleSI6IjFhYjJjM2Q0ZTVmNjFhZDhjM2Q0ZTVmOCIsImlhdCI6MTY0ODAxOTg3MywiZXhwIjoxNjQ4MDI1ODczfQ.vVsXD9Gb4ZF0n6f8JDrEnp0jfSB5tKLMw36w5vMh5x4
     description: ""
 authentication: {}
 metaSortKey: -1625046468899.125

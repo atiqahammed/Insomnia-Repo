@@ -1,12 +1,12 @@
 _id: req_342fa80c60be431f83c865496fef3618
 type: Request
 parentId: wrk_98fdfa42f9344c358d9f979b7f00e404
-modified: 1644771983437
+modified: 1650270307813
 created: 1644771943862
-url: http://localhost:3000/api/v1/payment-history
+url: "{{base_url}}/test-api"
 name: Crastonic Delete Payment History
 description: ""
-method: DELETE
+method: POST
 body:
   mimeType: application/json
   text: |-
